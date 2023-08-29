@@ -1,0 +1,6 @@
+remove ANSI bottom row
+resize/relocate Tsangan bottom row to be AEK
+relocate parts that now overlap the new bottom row layout
+re-route to the new relocated switches and other parts
+find replacement parts for the few that are out of stock, and make sure there aren't more JLC extended parts than are necessary
+I would personally remove the flex cut and change routing that was previously going around it
