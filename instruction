@@ -4,3 +4,11 @@ relocate parts that now overlap the new bottom row layout
 re-route to the new relocated switches and other parts
 find replacement parts for the few that are out of stock, and make sure there aren't more JLC extended parts than are necessary
 I would personally remove the flex cut and change routing that was previously going around it
+
+Open the schematic and find the matrix of switches
+Delete the ANSI bottom row switches (you'll know its ANSI because when you click on them they're show all 1.25 or 6.25u footprints), leaving only the Tsangan bottom row (the split space and innermost right side modifiers can be completely deleted including the lighting and everything, for the rest just delete the keyswitch footprint itself and its wires)
+Edit the properties of the remaining Tsangan bottom row to be AEK (1.5, 1.25, 1.5, 6.5, 1.5, 1.25, 1.5)
+Go to PCB and use the "update PCB from schematic" utility to apply the changes
+Set your grid size to 19.05mm divided by 8 or 16 or some other good number
+Move the bottom row switches so that their outlines all line up with each other and the other keys in a proper AEK layout
+Clean up the parts that now overlap the bottom row and make sure that the new key positions are routed correctly
